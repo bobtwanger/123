@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>課表</title>
+</head>
+<body>
+<h1 style="color:blueviolet;">我的課表</h1>
+
+</body>
+</html>
+<html>
+<head>
+<style>
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;
+}
+</style>
+</head>
+<body>
+
+
+<table style="width:100%">
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col" style="color:blueviolet;">時間</th>
+        <th scope="col" style="color:blueviolet;">一</th>
+        <th scope="col" style="color:blueviolet;">二</th>
+        <th scope="col" style="color:blueviolet;">三</th>
+        <th scope="col" style="color:blueviolet;">四</th>
+        <th scope="col" style="color:blueviolet;">五</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row" style="color:red;">6:30-7:20</th>
+        <th rowspan="3" style="color:blue;">資料結構</th>
+        <th rowspan="2" style="color:orange;">資訊安全導論</th>
+        <th rowspan="3" style="color:violet;">資料庫管理</th>
+        <td style="color:yellowgreen;">空堂         </td>
+        <th rowspan="3" style="color:turquoise;">統計學</th>
+      </tr>
+      
+      <tr>
+        <th scope="row" style="color:red;">7:20-8:05</th>
+        <th rowspan="2" style="color:gold;">體育</th>
+      </tr>
+     
+      <tr>
+        <th scope="row" style="color:red;">8:05-8:55</th>
+        <th rowspan="3" style="color:thistle;">網頁程式設計</th>
+      </tr>
+      
+      <tr>
+        <th scope="row" style="color:red;">8:55-9:50</th>
+        <th rowspan="2" style="color:teal;">社會運動(通識)</th>
+        <th rowspan="2" style="color:yellowgreen;">空堂</th>
+        <td style="color:yellowgreen;">空堂         </td>
+        <th rowspan="2" style="color:yellowgreen;">空堂</th>
+      
+      <tr>
+        <th scope="row" style="color:red;">9:50-10:30</th>
+        <td style="color:orange;">資訊安全導論  </td>
+      </tr>
+    </tbody>
+  </table>
